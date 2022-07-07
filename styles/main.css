@@ -973,6 +973,15 @@ body {
 }
 
 .intro__photo-item {
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.intro__photo-item:hover {
+  transform: scale(1.2);
+}
+
+.intro__photo {
   margin-bottom: 40px;
 }
 
