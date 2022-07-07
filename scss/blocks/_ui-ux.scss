@@ -1,0 +1,194 @@
+.ui-ux {
+  background-color: #edf3f8;
+}
+
+.ui-ux__inner {
+  padding-top: 30px;
+  padding-bottom: 100px;
+  max-width: 1110px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ui-ux__text-content {
+  max-width: 445px;
+}
+
+.ui-ux__heading {
+  margin: 0;
+  font-family: "DM Serif Display";
+  @include font-styles(400, 48px, 56px);
+  letter-spacing: -0.37px;
+  color: rgba(54, 83, 107, 1);
+}
+
+.ui-ux__text {
+  margin: 0;
+  margin-top: 24px;
+  color: rgba(108, 130, 148, 1);
+}
+
+.ui-ux__phone-box {
+  width: 566px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ui-ux__phones {
+  border-radius: 35px;
+}
+
+@include breakpoint-down(1020px) {
+  .ui-ux__inner {
+    padding-top: 30px;
+    padding-bottom: 100px;
+    max-width: 780px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .ui-ux__text-content {
+    max-width: 445px;
+    text-align: center;
+  }
+
+  .ui-ux__phone-box {
+    width: 566px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 48px;
+  }
+}
+
+@include breakpoint-down(768px) {
+  .ui-ux__inner {
+    padding-top: 30px;
+    padding-bottom: 50px;
+    max-width: 573px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .ui-ux__text-content {
+    max-width: 573px;
+  }
+  
+  .ui-ux__heading {
+    margin: 0;
+    font-family: "DM Serif Display";
+    @include font-styles(400, 48px, 56px);
+    letter-spacing: -0.37px;
+    color: rgba(54, 83, 107, 1);
+  }
+  
+  .ui-ux__text {
+    margin: 0;
+    margin-top: 24px;
+    color: rgba(108, 130, 148, 1);
+  }
+  
+  .ui-ux__phone-box {
+    width: 363px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .ui-ux__phones {
+    border-radius: 20px;
+    width: 168px;
+    height: 320px;
+  }
+}
+
+@include breakpoint-down(595px) {
+  .ui-ux__inner {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    max-width: 328px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .ui-ux__text-content {
+    max-width: 328px;
+  }
+  
+  .ui-ux__heading {
+    margin: 0;
+    font-family: "DM Serif Display";
+    @include font-styles(400, 36px, 36px);
+    letter-spacing: -0.28px;
+    color: rgba(54, 83, 107, 1);
+  }
+  
+  .ui-ux__text {
+    margin: 0;
+    margin-top: 24px;
+    color: rgba(108, 130, 148, 1);
+  }
+  
+  .ui-ux__phone-box {
+    width: 328px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .ui-ux__phones {
+    border-radius: 20px;
+    width: 152px;
+    height: 290px;
+  }
+}
+
+@include breakpoint-down(370px) {
+  .ui-ux__inner {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    max-width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .ui-ux__text-content {
+    max-width: 280px;
+  }
+  
+  .ui-ux__heading {
+    margin: 0;
+    font-family: "DM Serif Display";
+    @include font-styles(400, 36px, 36px);
+    letter-spacing: -0.28px;
+    color: rgba(54, 83, 107, 1);
+  }
+  
+  .ui-ux__text {
+    margin: 0;
+    margin-top: 24px;
+    color: rgba(108, 130, 148, 1);
+  }
+  
+  .ui-ux__phone-box {
+    width: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .ui-ux__phones {
+    border-radius: 20px;
+    width: 130px;
+    height: 250px;
+  }
+}
