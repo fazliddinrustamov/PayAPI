@@ -8,6 +8,7 @@
 // Starter flex
 @mixin  flex-starter {
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 

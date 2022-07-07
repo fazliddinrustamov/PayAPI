@@ -1,0 +1,23 @@
+.button {
+  font-family: "Public Sans";
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 17.63px;
+  letter-spacing: -0.12px;
+  color: rgba(251, 252, 254, 1);
+  background-color: rgba(186, 66, 112, 1);
+  border-radius: 25px;
+  border: none;
+  padding: 0;
+  padding: 15px 25px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: rgba(218, 109, 151, 1);
+}
+
+.button:active {
+  background-color: rgba(186, 66, 112, 1);
+  opacity: 50%;
+}
