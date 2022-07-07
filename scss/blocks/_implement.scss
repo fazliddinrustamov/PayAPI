@@ -1,0 +1,142 @@
+.implement {
+  background-color: #EDF3F8;
+}
+
+.implement__content {
+  max-width: 1015px;
+  padding-top: 150px;
+  padding-bottom: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.implement__text-content {
+  max-width: 445px;
+  margin-top: 60px;
+}
+
+.implement__title {
+  margin: 0;
+  font-family: "DM Serif Display";
+  @include font-styles(400, 48px, 56px);
+  letter-spacing: -0.37px;
+  color: rgba(54, 83, 107, 1);
+}
+
+.implement__text {
+  margin: 0;
+  margin-top: 24px;
+  color: rgba(108, 130, 148, 1);
+}
+
+@include breakpoint-down(945px) {
+  .implement__content {
+    max-width: 1015px;
+    padding-top: 100px;
+    padding-bottom: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .implement__picture  {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .implement__text-content {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    max-width: 573px;
+    margin-top: 48px;
+  }
+}
+
+@include breakpoint-down(605px) {
+  .implement__content {
+    max-width: 375px;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .implement__picture  {
+    width: 328px;
+    height: 209px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .implement__text-content {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    max-width: 328px;
+    margin-top: 48px;
+  }
+
+  .implement__title {
+    margin: 0;
+    font-family: "DM Serif Display";
+    @include font-styles(400, 36px, 36px);
+    letter-spacing: -0.28px;
+    color: rgba(54, 83, 107, 1);
+  }
+  
+  .implement__text {
+    margin: 0;
+    margin-top: 24px;
+    color: rgba(108, 130, 148, 1);
+  }
+}
+
+@include breakpoint-down(355px) {
+  .implement__content {
+    max-width: 300px;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .implement__picture  {
+    width: 280px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .implement__text-content {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    max-width: 280px;
+    margin-top: 48px;
+  }
+
+  .implement__title {
+    margin: 0;
+    font-family: "DM Serif Display";
+    @include font-styles(400, 34px, 34px);
+    letter-spacing: -0.28px;
+    color: rgba(54, 83, 107, 1);
+  }
+  
+  .implement__text {
+    margin: 0;
+    margin-top: 24px;
+    color: rgba(108, 130, 148, 1);
+  }
+}

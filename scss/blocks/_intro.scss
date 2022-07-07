@@ -1,0 +1,128 @@
+.intro {
+  background-color: rgba(27, 38, 47, 1);
+}
+
+.intro__inner {
+  max-width: 1110px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.intro__text-content {
+  max-width: 445px;
+}
+
+.intro__heading {
+  font-family: "DM Serif Display";
+  @include font-styles(400, 48px, 56px);
+  letter-spacing: -0.37px;
+  color: rgba(251, 252, 254, 1);
+  margin: 0;
+  margin-bottom: 24px;
+}
+
+.intro__text {
+  color: rgba(251, 252, 254, 1);
+  opacity: 70%;
+  margin: 0;
+  margin-bottom: 32px;
+}
+
+.intro__button {
+  padding: 15px 32px;
+  border: 1px solid rgba(251, 252, 254, 1);
+  background-color: #1B262F;
+  color: rgba(251, 252, 254, 1);
+  border-radius: 24px;
+  font-family: "Public Sans";
+  @include font-styles(700, 15px, 17px);
+  letter-spacing: -0.12px;
+  transition: ease 0.3s;
+}
+
+.intro__button:hover {
+  padding: 15px 32px;
+  border: 1px solid rgba(251, 252, 254, 1);
+  background-color: rgba(251, 252, 254, 1);
+  color: rgba(27, 38, 47, 1);
+  border-radius: 24px;
+}
+
+.intro__button:active {
+  padding: 15px 32px;
+  border: 1px solid rgba(251, 252, 254, 1);
+  background-color: #1B262F;
+  color: rgba(251, 252, 254, 1);
+  border-radius: 24px;
+  font-family: "Public Sans";
+  @include font-styles(700, 15px, 17px);
+  letter-spacing: -0.12px;
+  transition: ease 0.3s;
+  opacity: 50%;
+}
+
+.intro__photo-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  max-width: 536px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.intro__photo-item {
+  margin-bottom: 40px;
+}
+
+@include breakpoint-down(1015px) {
+  .intro__inner {
+    max-width: 1110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+    padding-top: 88px;
+    padding-bottom: 88px;
+  }
+
+  .intro__text-content {
+    text-align: center;
+  }
+}
+
+@include breakpoint-down(500px) {
+  .intro__inner {
+    max-width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .intro__text-content {
+    text-align: center;
+  }
+
+  .intro__heading {
+    font-family: "DM Serif Display";
+    @include font-styles(400, 32px, 36px);
+    letter-spacing: -0.25px;
+    color: rgba(251, 252, 254, 1);
+    margin: 0;
+    margin-bottom: 16px;
+    margin-top: 16px;
+  }
+
+  .intro__text {
+    margin-bottom: 60px;
+  }
+}
