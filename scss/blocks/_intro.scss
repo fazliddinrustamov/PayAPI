@@ -1,5 +1,9 @@
 .intro {
   background-color: rgba(27, 38, 47, 1);
+  background-image: url('../../img/bg-pattern-circle-intro.png');
+  background-size: 700px;
+  background-repeat: no-repeat;
+  background-position: calc(50% - 530px) -280px;
 }
 
 .intro__inner {
@@ -80,14 +84,20 @@
 }
 
 @include breakpoint-down(1015px) {
+  .intro {
+    background-position: calc(50% - 0px) -465px;
+  }
+
   .intro__inner {
-    max-width: 1110px;
+    max-width: 536px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-direction: column-reverse;
     padding-top: 88px;
     padding-bottom: 88px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .intro__text-content {
@@ -96,6 +106,10 @@
 }
 
 @include breakpoint-down(500px) {
+  .intro {
+    background-position: calc(50% - 0px) -500px;
+  }
+
   .intro__inner {
     max-width: 300px;
     display: flex;
