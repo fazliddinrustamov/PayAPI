@@ -890,7 +890,7 @@ body {
   background-image: url("../../img/bg-pattern-circle-intro.png");
   background-size: 700px;
   background-repeat: no-repeat;
-  background-position: calc(50% - 530px) -280px;
+  background-position: calc(50% - 530px) -270px;
 }
 
 .intro__inner {
@@ -1985,6 +1985,9 @@ body {
 }
 .footer {
   background-color: rgb(27, 38, 47);
+  background-image: url("../../img/bg-pattern-circle-intro.png");
+  background-repeat: no-repeat;
+  background-position: calc(50% + 700px) -125px;
 }
 
 .footer__content {
@@ -2064,6 +2067,10 @@ body {
 }
 
 @media only screen and (max-width: 1070px) {
+  .footer {
+    background-position: calc(50% + 500px) -125px;
+  }
+
   .footer__content {
     max-width: 800px;
     display: flex;
@@ -2086,6 +2093,10 @@ body {
   }
 }
 @media only screen and (max-width: 768px) {
+  .footer {
+    background-position: calc(50% + 380px) -125px;
+  }
+
   .footer__content {
     max-width: 689px;
     display: flex;
@@ -2108,6 +2119,10 @@ body {
   }
 }
 @media only screen and (max-width: 660px) {
+  .footer {
+    background-position: calc(50% + 0px) 165px;
+  }
+
   .footer__content {
     max-width: 300px;
     display: flex;

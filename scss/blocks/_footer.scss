@@ -1,5 +1,8 @@
 .footer {
   background-color: rgba(27, 38, 47, 1);
+  background-image: url('../../img/bg-pattern-circle-intro.png');
+  background-repeat: no-repeat;
+  background-position: calc(50% + 700px) -125px; 
 }
 
 .footer__content {
@@ -79,6 +82,10 @@
 }
 
 @include breakpoint-down(1070px) {
+  .footer {
+    background-position: calc(50% + 500px) -125px; 
+  }
+
   .footer__content {
     max-width: 800px;
     display: flex;
@@ -102,6 +109,10 @@
 }
 
 @include breakpoint-down(768px) {
+  .footer {
+    background-position: calc(50% + 380px) -125px; 
+  }
+
   .footer__content {
     max-width: 689px;
     display: flex;
@@ -125,6 +136,10 @@
 }
 
 @include breakpoint-down(660px) {
+  .footer {
+    background-position: calc(50% + 0px) 165px; 
+  }
+
   .footer__content {
     max-width: 300px;
     display: flex;
