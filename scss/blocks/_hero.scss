@@ -1,0 +1,236 @@
+.hero {
+  background-color: #EDF3F8;
+  background-image: url('../../img/bg-pattern-circle.png');
+  background-repeat: no-repeat;
+  background-size: 780px;
+  background-position: calc(50% + 448px) -300px;
+  padding: 0;
+}
+
+.hero__content {
+  max-width: 1015px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 75px;
+}
+
+.hero__text-content {
+  max-width: 546px;
+}
+
+.hero__title {
+  max-width: 100%;
+  font-family: "DM Serif Display";
+  @include font-styles(400, 72px, 72px);
+  letter-spacing: -0.55px;
+  color: rgba(54, 83, 107, 1);
+  margin: 0;
+  margin-bottom: 55px;
+}
+
+.hero__mail-input {
+  border: none;
+  border-radius: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 370px;
+  outline: none;
+}
+
+.hero__mail-input::placeholder {
+  font-family: "Public Sans";
+  @include font-styles(700, 15px, 17px);
+  color: rgba(54, 83, 107, 1);
+  opacity: 50%;
+  padding-left: 27px;
+}
+
+.hero__button {
+  margin-left: -100px;
+}
+
+.hero__phone-top {
+  display: none;
+}
+
+.hero__phone-bottom {
+  border-radius: 35px;
+}
+
+.hero__question-text {
+  max-width: 230px;
+  font-family: "Public Sans";
+  @include font-styles(400, 15px, 17px);
+  color: rgba(108, 130, 148, 1);
+  margin: 0;
+  margin-left: 27px;
+  margin-top: 16px;
+}
+
+.hero__contact-link {
+  text-decoration: none;
+  @include font-styles(700, 15px, 17px);
+  color: rgba(108, 130, 148, 1);
+}
+
+@include breakpoint-down(900px) {
+  .hero__content {
+    max-width: 1015px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+  }
+
+  .hero__text-content {
+    max-width: 573px;
+    text-align: center;
+    margin-top: 48px;
+    padding-bottom: 80px;
+  }
+
+  .hero__title {
+    max-width: 100%;
+    font-family: "DM Serif Display";
+    @include font-styles(400, 48px, 56px);
+    letter-spacing: -0.37px;
+    color: rgba(54, 83, 107, 1);
+    margin: 0;
+    margin-bottom: 22px;
+  }
+
+  .hero__question-text {
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16px;
+  }
+}
+
+@include breakpoint-down(800px) {
+  .hero {
+    background-color: #EDF3F8;
+    background-image: url('../../img/bg-pattern-circle.png');
+    background-repeat: no-repeat;
+    background-size: 900px;
+    background-position: calc(50% - 0px) -748px;
+  }
+
+  .hero__content {
+    max-width: 573px;
+    display: block;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 200px;
+  }
+  
+  .hero__phone-bottom {
+    display: none;
+  }
+
+  .hero__phone-top {
+    display: block;
+    border-radius: 20px;
+    width: 160px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero__text-content {
+    max-width: 573px;
+    text-align: center;
+    margin-top: 48px;
+    padding-bottom: 80px;
+  }
+
+  .hero__title {
+    max-width: 100%;
+    font-family: "DM Serif Display";
+    @include font-styles(400, 48px, 56px);
+    letter-spacing: -0.37px;
+    color: rgba(54, 83, 107, 1);
+    margin: 0;
+    margin-bottom: 22px;
+  }
+
+  .hero__question-text {
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16px;
+  }
+}
+
+@include breakpoint-down(535px) {
+  .hero {
+    background-color: #EDF3F8;
+    background-image: url('../../img/bg-pattern-circle.png');
+    background-repeat: no-repeat;
+    background-size: 900px;
+    background-position: calc(50% - 0px) -748px;
+  }
+
+  .hero__content {
+    max-width: 400px;
+    display: block;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .hero__phone-bottom {
+    display: none;
+  }
+
+  .hero__phone-top {
+    display: block;
+    border-radius: 20px;
+    width: 160px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero__text-content {
+    max-width: 400px;
+    text-align: center;
+    margin-top: 48px;
+    padding-bottom: 80px;
+  }
+
+  .hero__title {
+    max-width: 280px;
+    font-family: "DM Serif Display";
+    @include font-styles(400, 32px, 36px);
+    letter-spacing: -0.25px;
+    color: rgba(54, 83, 107, 1);
+    margin: 0;
+    margin-bottom: 22px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero__question-text {
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16px;
+  }
+
+  .hero__mail-input {
+    width: 280px;
+    height: 48px;
+  }
+
+  .hero__button {
+    width: 280px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 16px;
+    height: 48px;
+  }
+}

@@ -7,7 +7,7 @@
 	<link rel="icon" href="./assets/about/favicon.ico" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>PayAPI</title>
-	<link rel="stylesheet" href="styles/main.css"> 
+	<link rel="stylesheet" href="styles/main.min.css"> 
 </head>
 
 <body>
@@ -18,7 +18,7 @@
     <div class="header__container container">
       <div class="header__intro">
         <a href="index.html" class="header__logo-link">
-          <img class="header__logo" src="./img/logo.svg" alt="logotype">
+          <img class="header__logo" src="./img/logo.svg" alt="logotype" width="135" height="38">
         </a>
 
         <nav class="header__nav">
@@ -47,14 +47,75 @@
       <div class="hero__container container">
         <div class="hero__content">
           <h1 class="visually-hidden">Welcome to PayAPI</h1>
+          
+          <img class="hero__phone-top" src="./img/illustration-phone.png" alt="PayAPI phone" width="262" height="500">
+
           <div class="hero__text-content">
             <h2 class="hero__title">
               Start building with our APIs for absolutely free.
             </h2>
-            <form class="hero" action="https://echo.htmlacademy.ru/"></form>
+
+            <form class="hero__form" method="post" action="https://echo.htmlacademy.ru/">
+              <input class="hero__mail-input" type="email" name="user_mail" placeholder="Enter email address" required>
+
+              <button class="hero__button button" type="button">Schedule a Demo</button>
+            </form>
+
+            <p class="hero__question-text">
+              Have any questions?
+              <a class="hero__contact-link" href="#">Contact Us</a>
+            </p>
           </div>
 
-          <img class="hero__phone" src="./img/illustration-phone.png" alt="PayAPI phone" width="262" height="500">
+          <img class="hero__phone-bottom" src="./img/illustration-phone.png" alt="PayAPI phone" width="262" height="500">
+        </div>
+      </div>
+    </section>
+  </main>
+
+<!-- intro section -->
+
+  <main>
+    <section class="intro">
+      <div class="intro__container container">
+        <div class="intro__inner">
+          <div class="intro__text-content">
+            <h3 class="intro__heading">
+              Who we work with
+            </h3>
+
+            <p class="intro__text">
+              Today, millions of people around the world have successfully connected their accounts to apps they love using our API. We provide developers with the tools they need to create easy and accessible experiences for their users. 
+            </p>
+
+            <button class="intro__button">About Us</button>
+          </div>
+
+          <ul class="intro__photo-list">
+            <li class="intro__photo-item">
+              <img src="./img/tesla.png" alt="tesla" width="129" height="17">
+            </li>
+
+            <li class="intro__photo-item">
+              <img src="./img/microsoft.png" alt="microsoft" width="145" height="31">
+            </li>
+
+            <li class="intro__photo-item">
+              <img src="./img/hewlett-packard.png" alt="hewlett-packard" width="140" height="27">
+            </li>
+
+            <li class="intro__photo-item">
+              <img src="./img/oracle.png" alt="oracle" width="131" height="17">
+            </li>
+
+            <li class="intro__photo-item">
+              <img src="./img/google.png" alt="google" width="96" height="33">
+            </li>
+
+            <li class="intro__photo-item">
+              <img src="./img/nvidia.png" alt="nvidia" width="137" height="26">
+            </li>
+          </ul>
         </div>
       </div>
     </section>
