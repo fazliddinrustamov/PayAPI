@@ -1,0 +1,400 @@
+.benefits {
+  background-color: #edf3f8;
+}
+
+.benefits__content {
+  max-width: 1110px;
+  padding-top: 50px;
+  padding-bottom: 45px;
+}
+
+.benefits__list {
+  max-width: 1110px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.benefits__item--personal::before {
+  display: block;
+  content: url(../../img/personal-finances.png);
+  margin-bottom: 32px;
+  width: 106px;
+  height: 106px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.benefits__item--personal {
+  max-width: 350px;
+  text-align: center;
+}
+
+.benefits__item--banking::before {
+  display: block;
+  content: url(../../img/banking.png);
+  margin-bottom: 32px;
+  width: 106px;
+  height: 106px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.benefits__item--banking {
+  max-width: 350px;
+  text-align: center;
+}
+
+.benefits__item--consumer::before {
+  display: block;
+  content: url(../../img/consumer.png);
+  margin-bottom: 32px;
+  width: 106px;
+  height: 106px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.benefits__item--consumer {
+  max-width: 350px;
+  text-align: center;
+}
+
+.benefits__item-heading {
+  margin: 0;
+  font-family: "Public Sans";
+  @include font-styles(700, 18px, 25px);
+  letter-spacing: -0.14px;
+  color: rgba(54, 83, 107, 1);
+}
+
+.benefits__text {
+  line-height: 25px;
+  letter-spacing: -0.12px;
+  color: rgba(108, 130, 148, 1);
+}
+
+@include breakpoint-down(1060px) {
+  .benefits__content {
+    max-width: 1110px;
+    padding-top: 50px;
+    padding-bottom: 45px;
+  }
+  
+    .benefits__list {
+    max-width: 768px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+    .benefits__item--personal::before {
+    display: block;
+    content: url(../../img/personal-finances.png);
+    margin-bottom: 32px;
+    width: 88px;
+    height: 88px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+    .benefits__item--personal {
+    max-width: 250px;
+    text-align: center;
+  }
+  
+    .benefits__item--banking::before {
+    display: block;
+    content: url(../../img/banking.png);
+    margin-bottom: 32px;
+    width: 88px;
+    height: 88px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+    .benefits__item--banking {
+    max-width: 250px;
+    text-align: center;
+  }
+  
+    .benefits__item--consumer::before {
+    display: block;
+    content: url(../../img/consumer.png);
+    margin-bottom: 32px;
+    width: 88px;
+    height: 88px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+    .benefits__item--consumer {
+    max-width: 250px;
+    text-align: center;
+  }
+  
+    .benefits__item-heading {
+    margin: 0;
+    font-family: "Public Sans";
+    @include font-styles(700, 18px, 25px);
+    letter-spacing: -0.14px;
+    color: rgba(54, 83, 107, 1);
+  }
+  
+    .benefits__text {
+    line-height: 25px;
+    letter-spacing: -0.12px;
+    color: rgba(108, 130, 148, 1);
+  }
+}
+
+@include breakpoint-down(780px) {
+  .benefits__content {
+    max-width: 1110px;
+    padding-top: 50px;
+    padding-bottom: 45px;
+  }
+  
+    .benefits__list {
+    max-width: 689px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+    .benefits__item--personal::before {
+    display: block;
+    content: url(../../img/personal-finances.png);
+    margin-bottom: 32px;
+    width: 88px;
+    height: 88px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+    .benefits__item--personal {
+    max-width: 223px;
+    text-align: center;
+  }
+  
+    .benefits__item--banking::before {
+    display: block;
+    content: url(../../img/banking.png);
+    margin-bottom: 32px;
+    width: 88px;
+    height: 88px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+    .benefits__item--banking {
+    max-width: 223px;
+    text-align: center;
+  }
+  
+    .benefits__item--consumer::before {
+    display: block;
+    content: url(../../img/consumer.png);
+    margin-bottom: 32px;
+    width: 88px;
+    height: 88px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+    .benefits__item--consumer {
+    max-width: 223px;
+    text-align: center;
+  }
+  
+    .benefits__item-heading {
+    margin: 0;
+    font-family: "Public Sans";
+    @include font-styles(700, 18px, 25px);
+    letter-spacing: -0.14px;
+    color: rgba(54, 83, 107, 1);
+  }
+  
+    .benefits__text {
+    line-height: 25px;
+    letter-spacing: -0.12px;
+    color: rgba(108, 130, 148, 1);
+  }
+}
+
+@include breakpoint-down(370px) {
+  .benefits__content {
+    max-width: 1110px;
+    padding-top: 50px;
+    padding-bottom: 45px;
+  }
+  
+    .benefits__list {
+    max-width: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+    .benefits__item--personal::before {
+    display: block;
+    content: url(../../img/personal-finances.png);
+    margin-bottom: 32px;
+    width: 106px;
+    height: 106px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+    .benefits__item--personal {
+    width: 280px;
+    text-align: center;
+    margin-bottom: 45px;
+  }
+  
+    .benefits__item--banking::before {
+    display: block;
+    content: url(../../img/banking.png);
+    margin-bottom: 32px;
+    width: 106px;
+    height: 106px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+    .benefits__item--banking {
+    width: 280px;
+    text-align: center;
+    margin-bottom: 45px;
+  }
+  
+    .benefits__item--consumer::before {
+    display: block;
+    content: url(../../img/consumer.png);
+    margin-bottom: 32px;
+    width: 106px;
+    height: 106px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+    .benefits__item--consumer {
+    width: 280px;
+    text-align: center;
+  }
+  
+    .benefits__item-heading {
+    margin: 0;
+    font-family: "Public Sans";
+    @include font-styles(700, 18px, 25px);
+    letter-spacing: -0.14px;
+    color: rgba(54, 83, 107, 1);
+  }
+  
+    .benefits__text {
+    line-height: 25px;
+    letter-spacing: -0.12px;
+    color: rgba(108, 130, 148, 1);
+  }
+}
+
+@include breakpoint-down(710px) {
+  .benefits__content {
+    max-width: 1110px;
+    padding-top: 50px;
+    padding-bottom: 45px;
+  }
+  
+    .benefits__list {
+    max-width: 328px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+    .benefits__item--personal::before {
+    display: block;
+    content: url(../../img/personal-finances.png);
+    margin-bottom: 32px;
+    width: 106px;
+    height: 106px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+    .benefits__item--personal {
+    max-width: 328px;
+    text-align: center;
+    margin-bottom: 45px;
+  }
+  
+    .benefits__item--banking::before {
+    display: block;
+    content: url(../../img/banking.png);
+    margin-bottom: 32px;
+    width: 106px;
+    height: 106px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+    .benefits__item--banking {
+    max-width: 328px;
+    text-align: center;
+    margin-bottom: 45px;
+  }
+  
+    .benefits__item--consumer::before {
+    display: block;
+    content: url(../../img/consumer.png);
+    margin-bottom: 32px;
+    width: 106px;
+    height: 106px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+    .benefits__item--consumer {
+    max-width: 328px;
+    text-align: center;
+  }
+  
+    .benefits__item-heading {
+    margin: 0;
+    font-family: "Public Sans";
+    @include font-styles(700, 18px, 25px);
+    letter-spacing: -0.14px;
+    color: rgba(54, 83, 107, 1);
+  }
+  
+    .benefits__text {
+    line-height: 25px;
+    letter-spacing: -0.12px;
+    color: rgba(108, 130, 148, 1);
+  }
+}

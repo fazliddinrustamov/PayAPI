@@ -30,27 +30,6 @@
   margin-bottom: 55px;
 }
 
-.hero__mail-input {
-  border: none;
-  border-radius: 25px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  width: 370px;
-  outline: none;
-}
-
-.hero__mail-input::placeholder {
-  font-family: "Public Sans";
-  @include font-styles(700, 15px, 17px);
-  color: rgba(54, 83, 107, 1);
-  opacity: 50%;
-  padding-left: 27px;
-}
-
-.hero__button {
-  margin-left: -100px;
-}
-
 .hero__phone-top {
   display: none;
 }
@@ -221,12 +200,12 @@
     margin-top: 16px;
   }
 
-  .hero__mail-input {
+  .form__mail-input {
     width: 280px;
     height: 48px;
   }
 
-  .hero__button {
+  .form__button {
     width: 280px;
     margin-right: auto;
     margin-left: auto;
