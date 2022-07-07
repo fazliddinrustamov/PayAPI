@@ -375,7 +375,7 @@ template {
   border-radius: 25px;
   border: none;
   padding: 0;
-  padding: 15px 25px;
+  padding: 16px 25px;
   transition: background-color 0.3s ease;
 }
 
@@ -387,49 +387,6 @@ template {
 .button:active {
   background-color: rgb(186, 66, 112);
   opacity: 50%;
-}
-
-.form__mail-input {
-  border: none;
-  border-radius: 25px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  width: 370px;
-  outline: none;
-}
-
-.form__mail-input::-moz-placeholder {
-  font-family: "Public Sans";
-  font-weight: 700;
-  font-size: 15px;
-  line-height: 17px;
-  color: rgb(54, 83, 107);
-  opacity: 50%;
-  padding-left: 27px;
-}
-
-.form__mail-input:-ms-input-placeholder {
-  font-family: "Public Sans";
-  font-weight: 700;
-  font-size: 15px;
-  line-height: 17px;
-  color: rgb(54, 83, 107);
-  opacity: 50%;
-  padding-left: 27px;
-}
-
-.form__mail-input::placeholder {
-  font-family: "Public Sans";
-  font-weight: 700;
-  font-size: 15px;
-  line-height: 17px;
-  color: rgb(54, 83, 107);
-  opacity: 50%;
-  padding-left: 27px;
-}
-
-.form__button {
-  margin-left: -100px;
 }
 
 *,
@@ -723,6 +680,48 @@ body {
   color: rgb(108, 130, 148);
 }
 
+.hero__mail-input {
+  border: none;
+  border-radius: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 370px;
+}
+
+.hero__mail-input::-moz-placeholder {
+  font-family: "Public Sans";
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 17px;
+  color: rgb(54, 83, 107);
+  opacity: 50%;
+  padding-left: 27px;
+}
+
+.hero__mail-input:-ms-input-placeholder {
+  font-family: "Public Sans";
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 17px;
+  color: rgb(54, 83, 107);
+  opacity: 50%;
+  padding-left: 27px;
+}
+
+.hero__mail-input::placeholder {
+  font-family: "Public Sans";
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 17px;
+  color: rgb(54, 83, 107);
+  opacity: 50%;
+  padding-left: 27px;
+}
+
+.hero__button {
+  margin-left: -100px;
+}
+
 @media only screen and (max-width: 900px) {
   .hero__content {
     max-width: 1015px;
@@ -873,12 +872,12 @@ body {
     margin-top: 16px;
   }
 
-  .form__mail-input {
+  .hero__mail-input {
     width: 280px;
     height: 48px;
   }
 
-  .form__button {
+  .hero__button {
     width: 280px;
     margin-right: auto;
     margin-left: auto;
@@ -1769,5 +1768,204 @@ body {
     line-height: 25px;
     letter-spacing: -0.12px;
     color: rgb(108, 130, 148);
+  }
+}
+.start {
+  background-color: #edf3f8;
+}
+
+.start__content {
+  padding-top: 50px;
+  padding-bottom: 95px;
+  max-width: 1110px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.start__heading {
+  margin: 0;
+  max-width: 330px;
+  font-family: "DM Serif Display";
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -0.37px;
+  color: rgb(54, 83, 107);
+}
+
+.start__mail-input {
+  border: none;
+  border-radius: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 370px;
+}
+
+.start__mail-input::-moz-placeholder {
+  font-family: "Public Sans";
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 17px;
+  color: rgb(54, 83, 107);
+  opacity: 50%;
+  padding-left: 27px;
+}
+
+.start__mail-input:-ms-input-placeholder {
+  font-family: "Public Sans";
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 17px;
+  color: rgb(54, 83, 107);
+  opacity: 50%;
+  padding-left: 27px;
+}
+
+.start__mail-input::placeholder {
+  font-family: "Public Sans";
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 17px;
+  color: rgb(54, 83, 107);
+  opacity: 50%;
+  padding-left: 27px;
+}
+
+.start__button {
+  margin-left: -100px;
+}
+
+@media only screen and (max-width: 800px) {
+  .start__content {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    max-width: 460px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .start__heading {
+    margin: 0;
+    max-width: 330px;
+    font-family: "DM Serif Display";
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.37px;
+    color: rgb(54, 83, 107);
+  }
+
+  .start__mail-input {
+    border: none;
+    border-radius: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 360px;
+    margin-top: 40px;
+  }
+
+  .start__mail-input::-moz-placeholder {
+    font-family: "Public Sans";
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 17px;
+    color: rgb(54, 83, 107);
+    opacity: 50%;
+    padding-left: 27px;
+  }
+
+  .start__mail-input:-ms-input-placeholder {
+    font-family: "Public Sans";
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 17px;
+    color: rgb(54, 83, 107);
+    opacity: 50%;
+    padding-left: 27px;
+  }
+
+  .start__mail-input::placeholder {
+    font-family: "Public Sans";
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 17px;
+    color: rgb(54, 83, 107);
+    opacity: 50%;
+    padding-left: 27px;
+  }
+
+  .start__button {
+    margin-left: -100px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .start__heading {
+    margin: 0;
+    max-width: 330px;
+    font-family: "DM Serif Display";
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: -0.25px;
+    color: rgb(54, 83, 107);
+  }
+
+  .start__form {
+    max-width: 328px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 32px;
+  }
+
+  .start__mail-input {
+    width: 328px;
+    height: 48px;
+    margin: 0;
+  }
+
+  .start__button {
+    width: 328px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 16px;
+    height: 48px;
+  }
+}
+@media only screen and (max-width: 355px) {
+  .start__heading {
+    margin: 0;
+    max-width: 280px;
+    font-family: "DM Serif Display";
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: -0.25px;
+    color: rgb(54, 83, 107);
+  }
+
+  .start__form {
+    max-width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 32px;
+  }
+
+  .start__mail-input {
+    width: 280px;
+    height: 48px;
+    margin: 0;
+  }
+
+  .start__button {
+    width: 280px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 16px;
+    height: 48px;
   }
 }/*# sourceMappingURL=main.css.map */

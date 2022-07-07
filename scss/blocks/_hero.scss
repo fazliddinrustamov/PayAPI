@@ -54,6 +54,26 @@
   color: rgba(108, 130, 148, 1);
 }
 
+.hero__mail-input {
+  border: none;
+  border-radius: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 370px;
+}
+
+.hero__mail-input::placeholder {
+  font-family: "Public Sans";
+  @include font-styles(700, 15px, 17px);
+  color: rgba(54, 83, 107, 1);
+  opacity: 50%;
+  padding-left: 27px;
+}
+
+.hero__button {
+  margin-left: -100px;
+}
+
 @include breakpoint-down(900px) {
   .hero__content {
     max-width: 1015px;
@@ -200,12 +220,12 @@
     margin-top: 16px;
   }
 
-  .form__mail-input {
+  .hero__mail-input {
     width: 280px;
     height: 48px;
   }
 
-  .form__button {
+  .hero__button {
     width: 280px;
     margin-right: auto;
     margin-left: auto;

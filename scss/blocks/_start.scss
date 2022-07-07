@@ -1,0 +1,149 @@
+.start {
+  background-color: #edf3f8;
+}
+
+.start__content {
+  padding-top: 50px;
+  padding-bottom: 95px;
+  max-width: 1110px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.start__heading {
+  margin: 0;
+  max-width: 330px;
+  font-family: "DM Serif Display";
+  @include font-styles (400, 48px, 56px);
+  letter-spacing: -0.37px;
+  color: rgba(54, 83, 107, 1);
+}
+
+.start__mail-input {
+  border: none;
+  border-radius: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 370px;
+}
+
+.start__mail-input::placeholder {
+  font-family: "Public Sans";
+  @include font-styles(700, 15px, 17px);
+  color: rgba(54, 83, 107, 1);
+  opacity: 50%;
+  padding-left: 27px;
+}
+
+.start__button {
+  margin-left: -100px;
+}
+
+@include breakpoint-down(800px) {
+  .start__content {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    max-width: 460px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .start__heading {
+    margin: 0;
+    max-width: 330px;
+    font-family: "DM Serif Display";
+    @include font-styles (400, 48px, 56px);
+    letter-spacing: -0.37px;
+    color: rgba(54, 83, 107, 1);
+  }
+
+  .start__mail-input {
+    border: none;
+    border-radius: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 360px;
+    margin-top: 40px;
+  }
+  
+  .start__mail-input::placeholder {
+    font-family: "Public Sans";
+    @include font-styles(700, 15px, 17px);
+    color: rgba(54, 83, 107, 1);
+    opacity: 50%;
+    padding-left: 27px;
+  }
+  
+  .start__button {
+    margin-left: -100px;
+  }
+}  
+
+@include breakpoint-down(480px) {
+  .start__heading {
+    margin: 0;
+    max-width: 330px;
+    font-family: "DM Serif Display";
+    @include font-styles (400, 32px, 36px);
+    letter-spacing: -0.25px;
+    color: rgba(54, 83, 107, 1);
+  }
+
+  .start__form {
+    max-width: 328px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 32px;
+  }
+
+  .start__mail-input {
+    width: 328px;
+    height: 48px;
+    margin: 0;
+  }
+
+  .start__button {
+    width: 328px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 16px;
+    height: 48px;
+  }
+}
+
+@include breakpoint-down(355px) {
+  .start__heading {
+    margin: 0;
+    max-width: 280px;
+    font-family: "DM Serif Display";
+    @include font-styles (400, 32px, 36px);
+    letter-spacing: -0.25px;
+    color: rgba(54, 83, 107, 1);
+  }
+
+  .start__form {
+    max-width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 32px;
+  }
+
+  .start__mail-input {
+    width: 280px;
+    height: 48px;
+    margin: 0;
+  }
+
+  .start__button {
+    width: 280px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 16px;
+    height: 48px;
+  }
+}
